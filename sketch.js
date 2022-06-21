@@ -8,7 +8,7 @@ let day = true;
 let fade = false;
 
 function setup() {
-  createCanvas(700, 700);
+  createCanvas(windowWidth, windowHeight);
   cs = new CloudSystem(10);
 }
 
